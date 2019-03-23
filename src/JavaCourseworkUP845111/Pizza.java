@@ -26,9 +26,9 @@ public class Pizza {
     //Get/Set Methods
     public void setSize(Size size){ this.size = size; }
     public void setCrust(Crust crust){ this.crust = crust; }
-    public void setSize(Topping1 topping1){ this.topping1 = topping1; }
-    public void setSize(Topping2 topping2){ this.topping2 = topping2; }
-    public void setSize(Sauce sauce){ this.sauce = sauce; }
+    public void setTopping1(Topping1 topping1){ this.topping1 = topping1; }
+    public void setTopping2(Topping2 topping2){ this.topping2 = topping2; }
+    public void setSauce(Sauce sauce){ this.sauce = sauce; }
 
     public Size getSize() { return this.size; }
     public double getSizeValue() { return this.size.getValue(); }
@@ -68,7 +68,7 @@ public class Pizza {
     //Method that returns a formatted String of the pizza information
     public String getInfo(){
 
-        return String.format("TOTAL COST: £%s \n%s: £%s \n%s: £%s \nBASE COST: £%s \n%s: 5 * £%s = £ %.2f \n%s: 4 * £%.2f = £%.2f \n%s: £ %.2f",
+        return String.format("\nTOTAL COST: £%s \n%s: £%s \n%s: £%s \nBASE COST: £%s \n%s: 5 * £%s = £ %.2f \n%s: 4 * £%.2f = £%.2f \n%s: £ %.2f",
                 getTotalPrice(), size.getName(), size.getValueAsString(), crust.getName(), crust.getValueAsString(), getBase(), topping1.getName(),
                 topping1.getValue(), topping1.getValueTopping1(), topping2.getName(), topping2.getValue(), topping2.getValueTopping2(),
                 sauce.getName(), sauce.getValue());
