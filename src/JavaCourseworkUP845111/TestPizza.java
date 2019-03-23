@@ -1,7 +1,5 @@
 package JavaCourseworkUP845111;
 
-import java.awt.*;
-
 public class TestPizza {
 
     public static void main(String[] args){
@@ -13,7 +11,7 @@ public class TestPizza {
         System.out.println("\n");
         System.out.println("******First Sample******");
 
-        Pizza PizzaOne = new Pizza(Size.MEDIUM, Crust.THIN, Topping1.EXTRA_CHEESE, Topping2.CHILLI, Sauce.PESTO);
+        Pizza PizzaOne = new Pizza(Size.Medium, Crust.Thin, Topping1.Extra_Cheese, Topping2.Chilli, Sauce.Pesto);
         System.out.print(PizzaOne.getInfo());
         /*System.out.println("\n");
         System.out.print("Cost of Pizza " + PizzaOne.getTotalPrice());*/
@@ -21,7 +19,7 @@ public class TestPizza {
         System.out.println("\n");
         System.out.println("******Second Sample******");
 
-        Pizza PizzaTwo = new Pizza(Size.MEDIUM, Crust.STUFFED, Topping1.OLIVES, Topping2.ONION, Sauce.PESTO);
+        Pizza PizzaTwo = new Pizza(Size.Medium, Crust.Stuffed, Topping1.Olives, Topping2.Onion, Sauce.Pesto);
         System.out.print(PizzaTwo.getInfo());
         /*System.out.println("\n");
         System.out.print("Cost of Pizza " + PizzaTwo.getTotalPrice());*/
@@ -29,7 +27,7 @@ public class TestPizza {
         System.out.println("\n");
         System.out.println("******Third Sample******");
 
-        Pizza PizzaThree = new Pizza(Size.SMALL, Crust.THIN, Topping1.CHILLI, Topping2.PEPPERONI, Sauce.PESTO);
+        Pizza PizzaThree = new Pizza(Size.Small, Crust.Thin, Topping1.Chilli, Topping2.Pepperoni, Sauce.Pesto);
         System.out.println(PizzaThree.getInfo());
         /*System.out.println("\n");
         System.out.print("Cost of Pizza " + PizzaThree.getTotalPrice());*/
@@ -37,7 +35,7 @@ public class TestPizza {
         System.out.println("\n");
         System.out.println("******Fourth Sample******");
 
-        Pizza PizzaFour = new Pizza(Size.SMALL, Crust.THIN, Topping1.OLIVES, Topping2.OLIVES, Sauce.PESTO);
+        Pizza PizzaFour = new Pizza(Size.Small, Crust.Thin, Topping1.Olives, Topping2.Olives, Sauce.Pesto);
         System.out.println(PizzaFour.getInfo());
         /*System.out.println("\n");
         System.out.print("Cost of Pizza " + PizzaFour.getTotalPrice());*/

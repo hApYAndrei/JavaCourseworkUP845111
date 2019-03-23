@@ -31,10 +31,15 @@ public class Pizza {
     public void setSize(Sauce sauce){ this.sauce = sauce; }
 
     public Size getSize() { return this.size; }
+    public double getSizeValue() { return this.size.getValue(); }
     public Crust getCrust() { return this.crust;}
+    public double getCrustValue() { return this.crust.getValue(); }
     public Topping1 getTopping1() { return this.topping1; }
+    public double getTopping1Value() { return this.topping1.getValue(); }
     public Topping2 getTopping2() { return this.topping2; }
+    public double getTopping2Value() { return this.topping2.getValue(); }
     public Sauce getSauce() { return this.sauce; }
+    public double getSauceValue() { return this.sauce.getValue(); }
 
 
     //Method that calculates the Base Price

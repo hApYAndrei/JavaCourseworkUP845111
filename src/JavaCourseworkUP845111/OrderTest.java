@@ -6,11 +6,11 @@ public class OrderTest {
 
         Order myOrder = new Order();
 
-        myOrder.addPizza(Size.MEDIUM, Crust.THIN, Topping1.EXTRA_CHEESE, Topping2.CHILLI, Sauce.PESTO);
-        myOrder.addPizza(Size.MEDIUM, Crust.STUFFED, Topping1.OLIVES, Topping2.ONION, Sauce.PESTO);
-        myOrder.addPizza(Size.SMALL, Crust.THIN, Topping1.CHILLI, Topping2.PEPPERONI, Sauce.PESTO);
-        myOrder.addPizza(Size.SMALL, Crust.THIN, Topping1.OLIVES, Topping2.OLIVES, Sauce.PESTO);
+        myOrder.addPizza(Size.Medium, Crust.Thin, Topping1.Extra_Cheese, Topping2.Chilli, Sauce.Pesto);
+        myOrder.addPizza(Size.Medium, Crust.Stuffed, Topping1.Olives, Topping2.Onion, Sauce.Pesto);
+        myOrder.addPizza(Size.Small, Crust.Thin, Topping1.Chilli, Topping2.Pepperoni, Sauce.Pesto);
+        myOrder.addPizza(Size.Small, Crust.Thin, Topping1.Olives, Topping2.Olives, Sauce.Pesto);
 
-        System.out.println(myOrder.getInfo());
+        System.out.println(myOrder.getCostOfOrder());
     }
 }

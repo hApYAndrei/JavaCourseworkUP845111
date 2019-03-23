@@ -2,7 +2,7 @@ package JavaCourseworkUP845111;
 
 public enum Crust {
 
-    THIN ("Thin Crust",1.08), DEEP ("Deep Crust",1.10), STUFFED("Stuffed Crust",2.14);
+    Thin ("Thin Crust",1.08), Deep ("Deep Crust",1.10), Stuffed ("Stuffed Crust",2.14);
 
     private String name;
     private double value;

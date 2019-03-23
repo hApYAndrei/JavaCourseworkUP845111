@@ -2,7 +2,7 @@ package JavaCourseworkUP845111;
 
 public enum Size {
 
-    SMALL ("Small Size", 9.45), MEDIUM ("Medium Size",11.87), LARGE ("Large Size",15.90);
+    Small ("Small Size", 9.45), Medium ("Medium Size",11.87), Large ("Large Size",15.90);
 
     private String name;
     private double value;
