@@ -1,5 +1,4 @@
 package JavaCourseworkUP845111;
-import java.io.PipedInputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -25,10 +24,10 @@ public class Order {
 
         for (Pizza p : orders){
 
-//            pizzas += String.format("\n Your Order:\n %s",i.getInfo());
-
-            pizzas += String.format("\nTOTAL PRICE: £%.2f \n%s Size: £%.2f \n%s Crust: £%.2f \nBASE COST: £%.2f \n%s Topping: 5 * £%.2f = £%.2f \n%s Topping: 4 * £%.2f = £%.2f \n%s Sauce: £%.2f\n",
-                    p.getTotalPrice(), p.getSize(), p.getSizeValue(), p.getCrust(), p.getCrustValue(), p.getBase(), p.getTopping1(), p.getTopping1Value(), 5 * p.getTopping1Value(), p.getTopping2(),
+            pizzas += String.format("\nTOTAL PRICE: £%.2f \n%s Size: £%.2f \n%s Crust: £%.2f \nBASE COST: £%.2f " +
+                            "\n%s Topping: 5 * £%.2f = £%.2f \n%s Topping: 4 * £%.2f = £%.2f \n%s Sauce: £%.2f\n",
+                    p.getTotalPrice(), p.getSize(), p.getSizeValue(), p.getCrust(), p.getCrustValue(), p.getBase(),
+                    p.getTopping1(), p.getTopping1Value(), 5 * p.getTopping1Value(), p.getTopping2(),
                     p.getTopping2Value(), 4 * p.getTopping2Value(), p.getSauce(), p.getSauceValue());
         }
 
@@ -57,33 +56,36 @@ public class Order {
     //Method that selects and deletes a specific pizza in the order
     public void deletePizza(Size size, Crust crust, Topping1 topping1, Topping2 topping2, Sauce sauce){
 
-        /*for (Pizza p : orders){
+        Iterator<Pizza> iter = orders.iterator();
 
-            if ( p.getSize().equals(size) && p.getCrust().equals(crust) && p.getTopping1().equals(topping1) && p.getTopping2().equals(topping2) && p.getSauce().equals(sauce)){
+        while ( iter.hasNext()){
+//        for (Iterator<Pizza> iter = orders.iterator(); iter.hasNext();){
 
-                orders.remove(p);*/
-
-
-        for (Iterator<Pizza> iter = orders.iterator(); iter.hasNext();){
             Pizza p = iter.next();
-            if ( p.getSize().equals(size) && p.getCrust().equals(crust) && p.getTopping1().equals(topping1) && p.getTopping2().equals(topping2) && p.getSauce().equals(sauce)){
+
+            if ( p.getSize().equals(size) && p.getCrust().equals(crust) && p.getTopping1().equals(topping1)
+                    && p.getTopping2().equals(topping2) && p.getSauce().equals(sauce)){
+
                 iter.remove();
             }
         }
     }
 
     //Method that selects and updates a specific pizza from the order
-    public void updatePizza(Size size, Crust crust, Topping1 topping1, Topping2 topping2, Sauce sauce, Size newSize, Crust newCrust, Topping1 newTopping1, Topping2 newTopping2, Sauce newSauce){
+    public void updatePizza(Size size, Crust crust, Topping1 topping1, Topping2 topping2, Sauce sauce, Size newSize,
+                            Crust newCrust, Topping1 newTopping1, Topping2 newTopping2, Sauce newSauce){
 
         for (Pizza p : orders){
 
-            if ( p.getSize().equals(size) && p.getCrust().equals(crust) && p.getTopping1().equals(topping1) && p.getTopping2().equals(topping2) && p.getSauce().equals(sauce)){
+            if ( p.getSize().equals(size) && p.getCrust().equals(crust) && p.getTopping1().equals(topping1)
+                    && p.getTopping2().equals(topping2) && p.getSauce().equals(sauce)){
 
                 p.setSize(newSize);
                 p.setCrust(newCrust);
                 p.setTopping1(newTopping1);
                 p.setTopping2(newTopping2);
                 p.setSauce(newSauce);
+                break;
             }
         }
     }
