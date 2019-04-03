@@ -59,7 +59,6 @@ public class Order {
         Iterator<Pizza> iter = orders.iterator();
 
         while ( iter.hasNext()){
-//        for (Iterator<Pizza> iter = orders.iterator(); iter.hasNext();){
 
             Pizza p = iter.next();
 
