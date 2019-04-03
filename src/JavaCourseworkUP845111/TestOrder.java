@@ -1,6 +1,6 @@
 package JavaCourseworkUP845111;
 
-public class OrderTest {
+public class TestOrder {
 
     public static void main(String[] args) {
 
