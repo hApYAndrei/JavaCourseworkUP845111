@@ -126,8 +126,8 @@ public class Pizza {
     //Method that returns a formatted String of the pizza information
     public String getInfo(){
 
-        return String.format("\nTOTAL COST: £%s \n%s: £%s \n%s: £%s \nBASE COST: £%s \n%s: 5 * £%s = £ %.2f " +
-                        "\n%s: 4 * £%.2f = £%.2f \n%s: £%.2f",
+        return String.format("\nTOTAL COST: £%s \n%s: £%s \n%s: £%s \nBASE COST: £%s \n%s: 5 * £%s = £%.2f " +
+                        "\n%s: 4 * £%.2f = £%.2f \n%s: £%.2f \n",
                 getTotalPrice(), size.getName(), size.getValueAsString(), crust.getName(), crust.getValueAsString(),
                 getBase(), topping1.getName(), topping1.getValue(), topping1.getValueTopping1(), topping2.getName(),
                 topping2.getValue(), topping2.getValueTopping2(), sauce.getName(), sauce.getValue());

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfe9dfbe-acb3-4fab-a269-74ccaab6cbfd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaCourseworkUP845111/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCourseworkUP845111/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaCourseworkUP845111/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCourseworkUP845111/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaCourseworkUP845111/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCourseworkUP845111/TestOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Size.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -49,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Sauce.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -58,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Topping1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Topping2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -75,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="229">
+              <caret line="128" column="102" lean-forward="true" selection-start-line="128" selection-start-column="102" selection-end-line="128" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -85,16 +88,16 @@
         <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/TestPizza.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state>
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/OrderTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/TestOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="435">
+              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -133,9 +136,10 @@
         <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/Size.java" />
         <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/Sauce.java" />
         <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/Topping1.java" />
-        <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/Pizza.java" />
         <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/Order.java" />
+        <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/JavaCourseworkUP845111/TestOrder.java" />
       </list>
     </option>
   </component>
@@ -161,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554318059996" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554392141344" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -213,7 +217,8 @@
       <workItem from="1553775252213" duration="510000" />
       <workItem from="1553783107215" duration="8000" />
       <workItem from="1553784694958" duration="7868000" />
-      <workItem from="1554317361228" duration="506000" />
+      <workItem from="1554317361228" duration="1033000" />
+      <workItem from="1554391037333" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1553364551414</created>
@@ -257,11 +262,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554317397616</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Seventh Commit">
+      <created>1554317910453</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554317910453</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Eighth Commit">
+      <created>1554318091536</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554318091536</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23172000" />
+    <option name="totallyTimeSpent" value="24801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,6 +293,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="62" width="1574" height="884" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15208878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -284,13 +304,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19823232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22853535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2638889" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2638889" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32954547" />
@@ -385,7 +405,9 @@
     <MESSAGE value="Third Commit" />
     <MESSAGE value="Fifth Commit" />
     <MESSAGE value="Sixth Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sixth Commit" />
+    <MESSAGE value="Seventh Commit" />
+    <MESSAGE value="Eighth Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eighth Commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
@@ -402,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Crust.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -419,52 +434,59 @@
     <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Size.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Sauce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Topping1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Topping2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/TestPizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="128" column="102" lean-forward="true" selection-start-line="128" selection-start-column="102" selection-end-line="128" selection-end-column="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state>
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaCourseworkUP845111/TestOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
         </state>
       </provider>
     </entry>

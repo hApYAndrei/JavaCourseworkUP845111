@@ -24,11 +24,13 @@ public class Order {
 
         for (Pizza p : orders){
 
-            pizzas += String.format("\nTOTAL PRICE: £%.2f \n%s Size: £%.2f \n%s Crust: £%.2f \nBASE COST: £%.2f " +
+            pizzas += p.getInfo();
+
+            /*pizzas += String.format("\nTOTAL PRICE: £%.2f \n%s Size: £%.2f \n%s Crust: £%.2f \nBASE COST: £%.2f " +
                             "\n%s Topping: 5 * £%.2f = £%.2f \n%s Topping: 4 * £%.2f = £%.2f \n%s Sauce: £%.2f\n",
                     p.getTotalPrice(), p.getSize(), p.getSizeValue(), p.getCrust(), p.getCrustValue(), p.getBase(),
                     p.getTopping1(), p.getTopping1Value(), 5 * p.getTopping1Value(), p.getTopping2(),
-                    p.getTopping2Value(), 4 * p.getTopping2Value(), p.getSauce(), p.getSauceValue());
+                    p.getTopping2Value(), 4 * p.getTopping2Value(), p.getSauce(), p.getSauceValue());*/
         }
 
         return pizzas;
