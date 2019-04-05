@@ -54,19 +54,9 @@ public class Pizza {
         return this.size;
     }
 
-    public double getSizeValue() {
-
-        return this.size.getValue();
-    }
-
     public Crust getCrust() {
 
         return this.crust;
-    }
-
-    public double getCrustValue() {
-
-        return this.crust.getValue();
     }
 
     public Topping1 getTopping1() {
@@ -74,31 +64,15 @@ public class Pizza {
         return this.topping1;
     }
 
-    public double getTopping1Value() {
-
-        return this.topping1.getValue();
-    }
-
     public Topping2 getTopping2() {
 
         return this.topping2;
-    }
-
-    public double getTopping2Value() {
-
-        return this.topping2.getValue();
     }
 
     public Sauce getSauce() {
 
         return this.sauce;
     }
-
-    public double getSauceValue() {
-
-        return this.sauce.getValue();
-    }
-
 
     //Method that calculates the Base Price
     public double getBase(){
@@ -127,11 +101,9 @@ public class Pizza {
     public String getInfo(){
 
         return String.format("\nTOTAL COST: £%s \n%s: £%s \n%s: £%s \nBASE COST: £%s \n%s: 5 * £%s = £%.2f " +
-                        "\n%s: 4 * £%.2f = £%.2f \n%s: £%.2f \n",
+                        "\n%s: 4 * £%.2f = £%.2f \n%s: £%.2f\n",
                 getTotalPrice(), size.getName(), size.getValueAsString(), crust.getName(), crust.getValueAsString(),
                 getBase(), topping1.getName(), topping1.getValue(), topping1.getValueTopping1(), topping2.getName(),
                 topping2.getValue(), topping2.getValueTopping2(), sauce.getName(), sauce.getValue());
     }
-
-
 }
