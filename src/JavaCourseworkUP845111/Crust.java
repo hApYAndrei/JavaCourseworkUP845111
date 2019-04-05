@@ -20,11 +20,6 @@ public enum Crust {
         return this.value;
     }
 
-    public String getValueAsString() {
-
-        return String.valueOf(this.value);
-    }
-
     public String getName() {
 
         return this.name;
